@@ -603,7 +603,7 @@ public class TGPDiscreteSlider:TGPSlider_INTERFACE_BUILDER {
     public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         touchedInside = true
 
-        touchDown(touches, animationDuration: 0.1)
+        touchDown(touches, animationDuration: 0.0)
         sendActionForControlEvent(controlEvent: .valueChanged, with: event)
         sendActionForControlEvent(controlEvent: .touchDown, with:event)
 

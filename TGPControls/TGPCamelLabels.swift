@@ -175,7 +175,7 @@ public class TGPCamelLabels: UIControl {
         }
     }
 
-    public var animationDuration:TimeInterval = 0.15
+    public var animationDuration:TimeInterval = 0.0
 
     // Private
     var lastValue = NSNotFound
