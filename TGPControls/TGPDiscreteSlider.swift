@@ -763,4 +763,3 @@ public class TGPDiscreteSlider:TGPSlider_INTERFACE_BUILDER {
     #endif // TARGET_INTERFACE_BUILDER
 }
 
-
